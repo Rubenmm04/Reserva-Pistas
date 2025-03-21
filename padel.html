@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Reservar Pistas</title>
+</head>
+
+<body>
+    <header>
+        <h2>Mi Ciudad Deportiva</h2>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="futbol.html">Fútbol</a></li>
+            <li><a href="padel.html">Pádel</a></li>
+            <li><a href="pistaPabellon.html">Pista Pabellón</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Reservar Pista de Padel</h1>
+        <div class="contenedor-formularios">
+            <section class="reservar">
+                <form action="" method="post">
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" name="fecha" id="fecha" required>
+                    <label for="hora">Hora:</label>
+                    <input type="time" name="hora" id="hora" required>
+                    <label for="pista">Pista:</label>
+                    <select name="pista" id="pista" required>
+                        <option value="1">Pista 1</option>
+                        <option value="2">Pista 2</option>
+                        <option value="3">Pista 3</option>
+                        <option value="4">Pista 4</option>
+                    </select>
+                </form>
+            </section>
+            <section class="datos">
+                <form action="" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" id="apellidos" required>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono" id="telefono" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <button class="boton-centro"><a href="pago.html">Reservar</a></button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Reservar Pistas</p>
+    </footer>
+</body>
+</html>

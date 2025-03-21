@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    max-width: 1200px;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+.Reserva {
+    color: white;
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contenedor-formularios {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.reservar,
+.datos {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.reservar,
+.datos input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.boton-centro {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-centro:hover {
+    background-color: #555;
+}
+
+.boton-centro a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+.pago {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #333;
+    padding: 40px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+}
+.pago input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    gap: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 600px;
+    width: 800px;
+}
+.index{
+    text-align: center;
+}
